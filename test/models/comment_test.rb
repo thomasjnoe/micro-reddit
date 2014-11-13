@@ -1,9 +1,6 @@
 require 'test_helper'
 
 class CommentTest < ActiveSupport::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
 
   def setup
   	@comment = Comment.new(body: "This is a test.", user_id: 1, post_id: 1)
